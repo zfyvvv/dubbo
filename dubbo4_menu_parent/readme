@@ -1,0 +1,2 @@
+类似于SSM框架，mapper层和service层由provider（dubbo）实现，并提供接口给consumer(management)调用；
+consumer(management)中只需要写controller层即可，不需要关心数据层的代码逻辑；
